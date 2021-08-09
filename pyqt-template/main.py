@@ -4,12 +4,7 @@ from qtpy.QtWidgets import *
 from qtpy.QtGui import *
 from qtpy.QtCore import *
 from qtpy import uic
-
 # import ui.res
-'''
-tools:
-qt5-tools designer
-'''
 
 __appname__ = 'order-helper'
 __organization__ = 'none'
