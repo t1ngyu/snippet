@@ -6,6 +6,11 @@ from qtpy.QtCore import *
 from qtpy import uic
 # import ui.res
 
+from qtpy import QtWidgets, QtCore
+QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True) #enable highdpi scaling
+QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_UseHighDpiPixmaps, True) #use highdpi icons
+
+
 __appname__ = 'order-helper'
 __organization__ = 'none'
 
